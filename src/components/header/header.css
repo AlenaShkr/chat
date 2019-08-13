@@ -1,0 +1,10 @@
+.header {
+  height: 10vh;
+
+  background: cadetblue;
+  color: whitesmoke;
+}
+
+.header h2 {
+  margin: 0px;
+}
