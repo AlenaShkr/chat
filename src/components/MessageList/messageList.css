@@ -2,4 +2,35 @@
   height: 80vh;
 
   background: whitesmoke;
+  color: darkgray;
+  overflow: scroll;
+}
+
+.message-list ul {
+  margin: 0px;
+  
+  list-style-type: none;
+  text-align: start;
+}
+
+.message-list-name {
+  color:rgb(32, 27, 53);
+  font-weight: bold;
+}
+
+.message-list-text {
+  background: gray;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 5px;
+  color: whitesmoke;
+}
+
+.message-list-text span {
+  display: block;
+
+  color: black;
+  font-size: 10px;
+  font-style: italic;
+  text-align: right;
 }
